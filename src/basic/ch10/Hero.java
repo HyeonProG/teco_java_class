@@ -23,7 +23,7 @@ public class Hero {
 	}
 
 	public void setHp(int myHp) {
-		if (hp <= 0) {
+		if (myHp <= 0) {
 			System.out.println("사망하였습니다.");
 		} else {
 			this.hp = myHp;
@@ -44,7 +44,7 @@ public class Hero {
 	}
 
 	public void setDefense(double myDefense) {
-		if (defense <= 0) {
+		if (myDefense <= 0) {
 			System.out.println("방어력이 부족합니다.");
 		} else {
 			this.defense = myDefense;
