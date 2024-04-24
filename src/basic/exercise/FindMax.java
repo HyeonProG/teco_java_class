@@ -6,7 +6,7 @@ public class FindMax {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);	
 		System.out.println();
 		int num1 = sc.nextInt();
 		int num2 = sc.nextInt();

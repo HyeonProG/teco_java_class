@@ -1,6 +1,6 @@
 package basic.exercise;
 
-public class DoubleIf {
+public class Doublefor {
 
 	public static void main(String[] args) {
 		
