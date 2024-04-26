@@ -11,7 +11,7 @@ public class Marine extends Unit implements Move {
 
 	@Override
 	public void move() {
-		System.out.println("마린이 날아 다닙니다.");
+		System.out.println(this.name + " 이 날아 다닙니다.");
 		
 	}
 

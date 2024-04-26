@@ -11,7 +11,7 @@ public class Zergling extends Unit implements Move {
 
 	@Override
 	public void move() {
-		System.out.println("저글링이 땅속을 기어다닙니다.");
+		System.out.println(this.name + " 이 땅속을 기어다닙니다.");
 		
 	}
 

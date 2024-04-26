@@ -11,7 +11,7 @@ public class Zealot extends Unit implements Move {
 
 	@Override
 	public void move() {
-		System.out.println("질럿이 뛰어 다닙니다.");
+		System.out.println(this.name + " 이 뛰어 다닙니다.");
 		
 	}
 
