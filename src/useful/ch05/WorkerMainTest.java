@@ -15,6 +15,8 @@ public class WorkerMainTest {
 
 		System.out.println("---------- main 쓰레드 종료 ---------");
 
+		
+		
 	} // end of main
 
 } // end of class
