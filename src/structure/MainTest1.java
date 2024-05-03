@@ -18,8 +18,8 @@ public class MainTest1 {
 		System.out.println("--------------------------");
 		System.out.println(tencoIntArray.isEmpty());
 		System.out.println("--------------------------");
-		tencoIntArray.removeAll();
-		tencoIntArray.insertElement(0, 999);
+		// tencoIntArray.removeAll();
+		//tencoIntArray.insertElement(0, 999);
 		tencoIntArray.removeElement(0);
 		tencoIntArray.printAll();
 	}

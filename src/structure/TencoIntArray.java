@@ -121,7 +121,7 @@ public class TencoIntArray {
 		// intArr[position]; --> ex) 사용자가 요청한 인덱스 번호는 0번
 		// [100] [200] [300] [400]
 		// [200] [300] [400] [] : 한 칸씩 앞으로 이동
-		for (int i = position; i < count - 1; i--) {
+		for (int i = position; i < count; i++) {
 			intArr[i] = intArr[i + 1];
 		}
 		count--;
