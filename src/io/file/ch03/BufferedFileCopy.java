@@ -29,6 +29,7 @@ public class BufferedFileCopy {
 			while ((data = bis.read()) != -1) {
 				bos.write(data);
 			}
+			bos.flush(); // 매번 입출력을 발생하는 것이 아니라 한번에 입출력을 사용
 			System.out.println("버퍼 스트림 입출력 반복 완료");
 
 		} catch (Exception e) {
